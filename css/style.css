@@ -1,0 +1,99 @@
+body{
+  font-family: 'Solway', serif;
+ }
+ 
+ h1{
+  color: #1E90FF;
+
+ }
+ h3{
+  color: #1E90FF;
+ }
+ .main{
+  margin: 180px 500px;
+  width: 250px;
+  padding: 30px;
+  min-height: 100px;
+  background-color: rgb(238,238,238);
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 0.5px 1px 7px 0.5px;
+ }
+ .form{
+  line-height: 2.5em;
+  letter-spacing: 0.03em
+ }
+ .form input{
+  height: 20px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+ }
+ .button {
+  padding:3px;
+     height: 25px;
+     background-color: #1E90FF;
+     border: none;
+     color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+ table{
+    border-collapse: collapse
+  }
+  
+  td{
+    border: 1px solid rgb(0, 0, 0);
+ 
+    padding: 10px;
+  }
+  th{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #1E90FF;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    
+  }
+  
+  .container
+  {
+    perspective: 100 px;
+    
+  }
+  .container2
+  {
+    perspective: 200 px;
+    
+    padding: 0px;
+    display: flex;
+    justify-content: justify-content;
+  }
+  .btn
+  {
+    text-align: center!important;
+    text-decoration:none; 
+    
+    width: 160px;
+    height: 50px;
+    border: none;
+    background-color: #00a8ff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0px;
+  }
+  
+  .btn1:hover {
+    transform: rotateX(15deg);
+    box-shadow: 0 15px 15px #00a8ff;
+  }
+  
+  

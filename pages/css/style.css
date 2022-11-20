@@ -1,0 +1,50 @@
+body{
+    font-family: 'Solway', serif;
+   }
+   h3{
+    color: #1E90FF;
+   }
+   .main{
+    margin: 180px 500px;
+    width: 250px;
+    padding: 30px;
+    min-height: 100px;
+    background-color: rgb(238,238,238);
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0.5px 1px 7px 0.5px;
+   }
+   .form{
+    line-height: 2.5em;
+    letter-spacing: 0.03em
+   }
+   .form input{
+    height: 20px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+   }
+   .button {
+    padding:3px;
+       height: 25px;
+       background-color: #1E90FF;
+       border: none;
+       color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+   }
+   .G_zone {
+      padding:0px;
+         height: 25px;
+         background-color: hwb(193 0% 0% / 0);
+         border: none;
+         color: rgb(0, 0, 0);
+        text-align: left;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+     }   

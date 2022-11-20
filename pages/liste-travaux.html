@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Liste des travaux</title>
+  </head>
+  
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/style.css" />
+  <body>
+    <form method="post" action="php/control.php">
+      <p> Date : <input type="date" name="date" placeholder="Date de demande" </p>
+      <p> Demandeur : <input type="Text" name="demandeur" placeholder="Nom du demandeur" </p>
+      <p>Secteur : <input type="Text" name="secteur" placeholder="Secteur d'intervention"</p> 
+      <p class= "G_zone"> Equipement : <input type="Text" name="equipement" placeholder="Nom ou reference de l'equipement"
+                                      required
+                                            minlength="4" maxlength="35" size="35"</p>
+      <p class= "G_zone"> Description : <input type="Text" name="description" placeholder="Description de l'intervention" 
+                                        required
+                                              minlength="4" maxlength="35" size="35"</p>
+      <p class= "P_zone"> Type d'intervention : <input type="Text" name="" placeholder="Date des travaux"required
+                                                minlength="4" maxlength="35" size="35"</p>                                        
+      <p class= "P_zone"> Delais : <input type="date" name="delais" placeholder="Date des travaux"required
+        minlength="4" maxlength="35" size="35"</p>
+      <p class= "P_zone">Temps prévu : <input type="Text" name="temps_prevu" placeholder="Temps des travaux"required
+          minlength="4" maxlength="35" size="35"</p>
+      <p class= "P_zone">Techniciens : <input type="Text" name="techniciens" placeholder="Nom du technicien"required
+            minlength="4" maxlength="35" size="35"</p>    
+      <p class= "P_zone"> Etat : <input type="Text" name="etat" placeholder="ok ou nonok"required
+        minlength="3" maxlength="35" size="35"</p>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
