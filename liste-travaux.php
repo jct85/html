@@ -49,7 +49,7 @@
       <option value="Terminée">4 terminée</option>
       </select>
 
-      <input type="submit" value="Submit" class="btn btn1"/>
+      <input type="submit" value="Enregistrer" class="btn btn1"/>
     </div>
     </form>
   </body>

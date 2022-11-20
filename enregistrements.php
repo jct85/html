@@ -6,11 +6,16 @@
         <title>Liste de taches</title>
 		
 </form>
-	</:mùhead>
 	<body>
+	
 	<div class="container">
         <h1>Liste de taches</h1>
-		<a class="btn btn1" href="liste-travaux.php">Saisie des Travaux</a>
+		<div class="container2">
+		<a class="btn btn1" href = "home.php">Accueil</a>
+    <a class="btn btn1" href="liste-travaux.php">Saisie des Travaux</a>
+    <a class="btn btn1" href="enregistrements.php">Voir enregistrements travaux</a>
+
+	</div>
 	<td><?php 
 
 	$dt = new \DateTime();
@@ -65,6 +70,7 @@
 		$mysqli->close();
 		?>
 		</table>
+		<a class="btn btn1" href="suppression.php">Suppression</a>
 	</div>
 	</body> 
 </html>
