@@ -9,9 +9,10 @@
 	<body>
 	
 	<div class="container">
-        <h1>Liste de taches</h1>
+    <h1>Liste de taches</h1>
+	
 		<div class="container2">
-		<a class="btn btn1" href = "home.php">Accueil</a>
+	<a class="btn btn1" href = "home.php">Accueil</a>
     <a class="btn btn1" href="liste-travaux.php">Saisie des Travaux</a>
     <a class="btn btn1" href="enregistrements.php">Voir enregistrements travaux</a>
 
